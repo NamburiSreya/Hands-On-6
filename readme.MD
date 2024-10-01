@@ -17,3 +17,4 @@ T(n) = 2n ln n + O(n)
 Natural log to log base 2 conversion:
 T(n) = 2n log₂ n + O(n)
 Consequently, **O(n log n)**is the average-case time complexity of quicksort with a non-random pivot.
+This derivation shows that even with a non-random pivot, quicksort achieves O(n log n) average-case time complexity. However, it's important to note that this assumes a uniform distribution of input elements. In practice, the performance can degrade to O(n²) for certain input distributions, which is why random pivot selection is often preferred.
